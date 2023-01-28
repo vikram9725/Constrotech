@@ -1,0 +1,20 @@
+
+.bagImg{
+    height: 180px;
+    background-image: url('../images/Project/page-header.jpg');
+  }
+  .grow img {
+    transition: 1s ease;
+  }
+  
+  .grow img:hover {
+    transform: scale(0.95);
+    transition: 0.9s ease;
+  }
+  .ch1{
+    height: 600px;
+    /* width: 300px !important; */
+  } 
+  .ch1 img{
+    height: 300px;
+  }

@@ -1,0 +1,98 @@
+[
+    {
+        "id": "1",
+        "title": "EARTHWORK",
+        "body": "Earthworks are engineering works created through the processing of parts of the earth's surface involving quantities of soil or unformed rock.",
+        "image": "http://brbpl.com/gallary/earthwork.jpg"
+    },
+    {
+        "id": "2",
+        "title": "INDUSTRIAL DEVELOPMENT",
+        "body": "The Industrial Revolution led to the development of factories for large-scale production with consequent changes in society. Originally the factories were steam-powered, but later transitioned to electricity once an electrical grid was developed.",
+        "image": "http://brbpl.com/gallary/industrial.jpg"
+    },
+    {
+        "id": "3",
+        "title": "RESIDENTIAL BUILDINGS",
+        "body": "Single-family residential buildings are most often called houses or homes. Residential buildings containing more than one dwelling unit are called a duplex, apartment building to differentiate them from 'individual' houses. A condominium is an apartment that the occupant owns rather than rents.",
+        "image": "http://brbpl.com/gallary/resident.jpg"
+    },
+    {
+        "id": "4",
+        "title": "HOSPITALITY",
+        "body": "Hospitality refers to the relationship between a guest and a host, wherein the host receives the guest with goodwill, including the reception and entertainment of guests, visitors, or strangers.",
+        "image": "http://brbpl.com/gallary/hospital.jpg"
+    },
+    {
+        "id": "5",
+        "title": "MINING",
+        "body": "Mining is the extraction of valuable minerals or other geological materials from the earth, usually from an orebody, lode, vein, seam, reef or placer deposit. These deposits form a mineralized package that is of economic interest to the miner.",
+        "image": "http://brbpl.com/gallary/mining.jpg"
+    },
+    {
+        "id": "6",
+        "title": "COMMERCIAL BUILDINGS",
+        "body": "Commercial buildings are buildings that are used for commercial purposes, and include office buildings, warehouses, and retail buildings (e.g. convenience stores, 'big box' stores, and shopping malls).",
+        "image": "http://brbpl.com/gallary/commercial.jpg"
+    },
+    {
+        "id": "7",
+        "title": "ROADWORK",
+        "body": "Definition of roadwork - work done in building or repairing roads, athletic exercise or training involving running on roads.",
+        "image": "http://brbpl.com/gallary/roadwork.jpg"
+    },
+    {
+        "id": "8",
+        "title": "LANDSCAPING",
+        "body": "People have practiced landscaping for centuries. As far back as the ancient Mayans, humans were manipulating the land for both aesthetic and practical reasons.",
+        "image": "http://brbpl.com/gallary/earthwork.jpg"
+    },
+    {
+        "id": "9",
+        "title": "ARCHITECHTURE",
+        "body": "People have practiced landscaping for centuries. As far back as the ancient Mayans, humans were manipulating the land for both aesthetic and practical reasons.",
+        "image": "https://cdn.pixabay.com/photo/2015/12/06/18/02/architecture-1079806_960_720.jpg"
+    },
+    {
+        "id": "10",
+        "title": "GALLERY",
+        "body": "Mining is the extraction of valuable minerals or other geological materials from the earth, usually from an orebody, lode, vein, seam, reef or placer deposit. ",
+        "image": "https://cdn.pixabay.com/photo/2019/06/23/15/29/great-gallery-4293985_960_720.jpg"
+    },
+    {
+        "id": "11",
+        "title": "CITY SCAPE",
+        "body": "Commercial buildings are buildings that are used for commercial purposes, and include office buildings, warehouses, and retail buildings (e.g. convenience stores, 'big box' stores, and shopping malls).",
+        "image": "https://cdn.pixabay.com/photo/2020/09/21/02/02/cityscape-5588736_960_720.jpg"
+    },
+    {
+        "id": "12",
+        "title": "STAIRS",
+        "body": "Definition of roadwork - work done in building or repairing roads, athletic exercise or training involving running on roads.",
+        "image": "https://cdn.pixabay.com/photo/2020/03/13/10/36/stairs-4927569_960_720.jpg"
+    },
+    {
+        "id": "13",
+        "title": "BUILDINGG",
+        "body": "People have practiced landscaping for centuries. As far back as the ancient Mayans, humans were manipulating the land for both aesthetic and practical reasons.",
+        "image": "https://cdn.pixabay.com/photo/2020/08/28/06/13/building-5523630_960_720.jpg"
+    },
+    {
+        "id": "14",
+        "title": "HOTELS",
+        "body": "Mining is the extraction of valuable minerals or other geological materials from the earth, usually from an orebody, lode, vein, seam, reef or placer deposit. These deposits form a mineralized package that is of economic interest to the miner.",
+        "image": "https://cdn.pixabay.com/photo/2017/07/15/19/13/hotel-2507432_960_720.jpg"
+    },
+    {
+        "id": "15",
+        "title": "BUILDINGS STRUCTHURE",
+        "body": "Commercial buildings are buildings that are used for commercial purposes, and include office buildings, warehouses, and retail buildings (e.g. convenience stores, 'big box' stores, and shopping malls).",
+        "image": "https://cdn.pixabay.com/photo/2016/06/23/01/23/floor-plan-1474454_960_720.jpg"
+    },
+    {
+        "id": "16",
+        "title": "EXCAVATORS",
+        "body": "Definition of roadwork - work done in building or repairing roads, athletic exercise or training involving running on roads.",
+        "image": "https://cdn.pixabay.com/photo/2012/07/06/20/21/excavators-51663_960_720.jpg"
+    }
+]

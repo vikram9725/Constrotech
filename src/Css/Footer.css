@@ -1,0 +1,19 @@
+.footerbgcolor{
+    background-color:rgb(49, 43, 43);
+    color: white;
+    margin-bottom: 0px;    
+}
+h5{
+    margin-top: 25px;
+    text-align: center;
+    justify-content: center;
+}
+.ltype{
+    list-style-type:none;
+}
+a{
+    color:white;
+    text-decoration: none;
+
+}
+

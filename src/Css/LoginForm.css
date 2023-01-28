@@ -1,0 +1,74 @@
+.btn{
+    width: 90px;
+    height: 30px;
+    background:#ff7200;
+    border: 2px solid #ff7200;
+    margin-top: 13px;
+    color: #fff;
+    font-size: 20px;
+    border-bottom-right-radius: 5px;
+}
+
+.form{
+    width: 200px;
+    height: 400px;
+    background: linear-gradient(to top, rgba(0,0,0,8)50%, rgba(0,0,0,8)50%);
+    position: absolute;
+    top: 60px;
+    left:500px !important;
+    padding: 100px;
+    border-radius: 10px ;
+}
+.h1
+{  
+    margin-top: 0px;
+    color:white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+   
+}
+.h4{
+    color:white;
+}
+.lbl{
+    color:white;
+}
+.btn1{
+    font-style:italic;
+    background:#ff7200; 
+    color:white;
+    height: 40px;
+    width: 190px;
+}
+.btn2{
+    font-style:italic;
+    background-color: royalblue;
+    color:white;
+    height:40px;
+    width:190px
+}
+.card{
+    height: 500px;
+}
+
+
+
+
+/* login form 2 */
+
+
+.divider:after,
+.divider:before {
+content: "";
+flex: 1;
+height: 1px;
+background: #eee;
+}
+.h-custom {
+height: calc(100% - 73px);
+}
+@media (max-width: 450px) {
+.h-custom {
+height: 100%;
+}
+}

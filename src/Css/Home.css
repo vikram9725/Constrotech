@@ -1,0 +1,71 @@
+.navbar{
+    background-color: black !important;
+    color: white!important;
+}
+
+.Construction{
+    font-size: 30px;
+    font-weight: 700;
+    color: white;
+}
+.nav-item{
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+}
+.nav-item :hover{
+    color:aqua !important;
+}
+
+
+.nav-link{
+    color: white !important;
+}
+
+.content-text {
+position: absolute;
+    top: 36%;
+    left: 34%;
+    z-index: 1;
+}
+
+.dropdown{
+    display: flex;
+    font-size: 17px;
+    border-radius: 50px!important;
+    font-weight: 600;
+    border: hidden;
+    border-width: 0;
+    margin-top: 6px;
+}
+@media   (min-width: 340px) and  (max-width: 570px){
+    
+    .crch{
+        margin-left: 20px !important;
+        display: flex;    
+        font-size: 6px;  
+        background-color: transparent !important;
+    }
+    .btnsrc{
+        margin-top: 20px;
+    }
+}
+
+@media   (min-width: 571px) and  (max-width: 992px){
+    
+    .crch{
+        margin-left: 20px !important;
+        display: block !important;    
+        font-size: 6px;  
+        background-color: transparent !important;
+    }
+    .btnsrc{
+        margin-top: 20px;
+    }
+}
+
+
+
+
+
+

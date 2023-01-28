@@ -1,0 +1,67 @@
+.container {
+  width: 100%;
+  background-color: rgb(255, 255, 255)
+}
+
+.border {
+
+  width: 70px;
+  height: 3px;
+  background: rgb(255, 168, 37);
+  margin: 10px auto;
+}
+
+
+.icon-guid {
+
+
+  padding: 40px 10px 5px 5px;
+  box-sizing: border-box;
+}
+
+.icon-guid new-icon i {
+
+  position: absolute;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.new-icon {
+  height: 40px;
+  width: 40px;
+  background-color: rgb(255, 201, 37);
+  border-radius: 50%;
+  padding-left: 12px;
+  padding-top: 6px;
+
+  box-shadow: 1px 4px 2px 2px #d0d5ea;
+}
+
+.icon-guid :hover {
+
+  background-color: rgb(225, 226, 209);
+
+}
+
+
+.card {
+  /* flex-direction: row; */
+}
+
+.card img {
+  /* width: 30%; */
+}
+
+
+.card-title-services {
+
+  /* font-size: 18px; */
+
+}
+
+.card-text-services {
+
+  /* font-size: 14px; */
+
+}
+

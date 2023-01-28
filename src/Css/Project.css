@@ -1,0 +1,13 @@
+.bgimg{
+    width:100%;
+    height: 100px;
+    background-image: url('../images/Project/page-header.jpg');
+    margin-left: 0px !important;
+}
+.bcard{
+    border: 1px solid grey;
+}
+#imgtag{
+    background-size: cover;
+    background-repeat: no-repeat;
+}

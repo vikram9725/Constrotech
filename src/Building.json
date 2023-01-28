@@ -1,0 +1,193 @@
+
+[
+    {
+        "id": "1",
+        "title": "sara builder",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"pune"
+    },
+    {
+        "id": "2",
+        "title": "dev builder",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"pune"
+
+    },
+    {
+        "id": "3",
+        "title": "chaudhari builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"pune"
+
+    },
+    {
+        "id": "4",
+        "title": "khurana builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"mumbai"
+
+    },
+    {
+        "id": "5",
+        "title": "rajpal builder",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"mumbai"
+
+    },
+    {
+        "id": "6",
+        "title": "deshmukh builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"mumbai"
+
+    },
+    {
+        "id": "7",
+        "title": "jadhav builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"mumbai"
+    },
+    {
+        "id": "8",
+        "title": "sankalp builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"mumbai"
+
+    },
+    {
+        "id": "9",
+        "title": "karve builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"nashik"
+
+    },
+    {
+        "id": "10",
+        "title": "khanna builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"nashik"
+
+    },
+    {
+        "id": "11",
+        "title": "yewale builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"nashik"
+
+    },
+    {
+        "id": "12",
+        "title": "joshi builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"nashik"
+
+    },
+    {
+        "id": "13",
+        "title": "swara builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"nashik"
+
+    },
+    {
+        "id": "14",
+        "title": "rahul builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"nashik"
+
+    },
+    {
+        "id": "15",
+        "title": "rohit builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"nashik"
+
+    },
+    {
+        "id": "16",
+        "title": "ganesh builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"solapur"
+    },
+    {
+        "id": "17",
+        "title": "kranti builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"solapur"
+
+    },
+    {
+        "id": "18",
+        "title": "Godrej builder",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"solapur"
+
+    },
+    {
+        "id": "19",
+        "title": "DLF builder",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"solapur"
+
+    },
+    {
+        "id": "20",
+        "title": "Unitech builder",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"solapur"
+
+    },
+    {
+        "id": "21",
+        "title": "Ajmera Builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"solapur"
+
+    },
+    {
+        "id": "22",
+        "title": "LOK Builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"kolhapur"
+
+    },
+    {
+        "id": "23",
+        "title": "Mahindra Bulders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"kolhapur"
+
+    },
+    {
+        "id": "24",
+        "title": "Jay builders",
+        "images": "https://i.dummyjson.com/data/products/1/1.jpg",
+        "description": "On a hunt for a great property for investment? Or looking forward to buying your dream house? Or searching for a good rental? Be it investing, buying, selling or renting, Estate Agents take care of everything property-related. These agents are experts in the property market with great insights that can aid you in any property-related decision",
+        "city":"kolhapur"
+
+    }
+
+]
