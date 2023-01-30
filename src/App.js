@@ -8,6 +8,7 @@ import Registerform from "./Component/Subcomponent/Registerform";
 import LoginForm from "./Component/Subcomponent/LoginForm";
 import Project from "./Component/Project";
 import Ourservices1 from "./Component/Ourservices";
+import Gallery from "./Component/Gallery"
 
 function App() {
   return (
@@ -21,7 +22,9 @@ function App() {
           <Route path="/register" element={<Registerform/>}></Route>
           <Route path="/Project" element={<Project/>}></Route>          
           <Route path="/LoginForm" element={<LoginForm/>}></Route>
-          <Route path="/services" element={<Ourservices1/>}></Route>  
+          <Route path="/services" element={<Ourservices1/>}></Route> 
+          <Route path="/Gallery" element={<Gallery/>}></Route>  
+
 
 
         </Routes>

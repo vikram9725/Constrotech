@@ -11,7 +11,6 @@ const Reviewdetail = () => {
       <div className="container">
         <div className="row h-auto">
           <div className="col-md-12 ">
-
             {
               a.map((a) => {
                 return (
@@ -30,9 +29,9 @@ const Reviewdetail = () => {
                         <div className="card-body">
                           <div className='d-flex justify-content-between'>
                             <div className='main card-titles'>
-                              <a href='#'><h6>{a.title}</h6></a>
+                              <a href='/'><h6>{a.title}</h6></a>
                               {/* <i class="fa-regular fa-location-dot"></i> */}
-                              <p><a href="#">{a.locatin}</a></p>
+                              <p><a href="/">{a.locatin}</a></p>
                             </div>
                             <div>
                               <p >{a.group}</p>
@@ -52,7 +51,7 @@ const Reviewdetail = () => {
 
                         <div className='d-flex flats justify-content-between w-30 fs-10'>
                           <div>
-                            <a href='#'><p>2BHK+2T</p></a>
+                            <a href='/'><p>2BHK+2T</p></a>
                           </div>
                           <div>
                             <p>On Request</p>
@@ -64,7 +63,7 @@ const Reviewdetail = () => {
 
                         <div className='d-flex flats  justify-content-between w-30'>
                           <div>
-                            <a href='#'><p>2BHK+2T</p></a>
+                            <a href='/'><p>2BHK+2T</p></a>
                           </div>
                           <div>
                             <p>On Request</p>
@@ -78,7 +77,7 @@ const Reviewdetail = () => {
 
                         <div className='d-flex flats justify-content-between w-30'>
                           <div>
-                            <a href='#'><p>2BHK+2T</p></a>
+                            <a href='/'><p>2BHK+2T</p></a>
                           </div>
                           <div>
                             <p>On Request</p>
@@ -94,7 +93,7 @@ const Reviewdetail = () => {
                         </div>
                         <div className='d-flex justify-content-end me-3' >
                           <div className='me-3 mt-2'>
-                            <a style={{ color: "orange" }} href='#'><h6>View Details</h6></a>
+                            <a style={{ color: "orange" }} href='/'><h6>View Details</h6></a>
                           </div>
                           <div>
                             <button type="button" class="btn btn-danger">Get Callback</button>
