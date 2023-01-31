@@ -6,6 +6,8 @@ import jsongallery2 from '../Gallery2.json'
 import Footer from "./Subcomponent/Footer";
 import { Navbar1 } from "./Subcomponent/Navbar";
 function Gallery() {
+document.title="Gallery"
+
   let data = jsondata;
   let data1 = jsongallery1;
   let data2=jsongallery2;

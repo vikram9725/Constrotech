@@ -5,7 +5,6 @@ import wallBlock from "../../images/Silkslider/wallblockSlide.jpg";
 import Slider2 from "../../images/Silkslider/slideImg2.jpg";
 import sand from "../../images/Silkslider/sand.jpg";
 import steel from "../../images/Silkslider/steel.jpg";
-import steel2 from "../../images/Silkslider/steel-2.jpg";
 import steel3 from '../../images/Silkslider/steelimg3.jpg'
 
 export default class ReactSilcSlider extends Component {
@@ -39,32 +38,32 @@ export default class ReactSilcSlider extends Component {
         <Slider ref={(slider) => (this.slider = slider)} {...settings}>
           <div>
             <h3>
-              <img src={sliderimg} width="100%" height="380px" />
+              <img src={sliderimg} width="100%" height="380px" alt="" />
             </h3>
           </div>
           <div>
             <h3>
-              <img src={wallBlock} width="100%" height="380px" />
+              <img src={wallBlock} width="100%" height="380px" alt=""  />
             </h3>
           </div>
           <div>
             <h3>
-              <img src={Slider2} width="100%" height="380px" />
+              <img src={Slider2} width="100%" height="380px" alt=""  />
             </h3>
           </div>
           <div>
             <h3>
-              <img src={sand} width="100%" height="380px" />
+              <img src={sand} width="100%" height="380px" alt=""  />
             </h3>
           </div>
           <div>
             <h3>
-              <img src={steel} width="100%" height="380px" />
+              <img src={steel} width="100%" height="380px" alt=""  />
             </h3>
           </div>
           <div>
             <h3>
-              <img src={steel3} width="100%" height="380px" />
+              <img src={steel3} width="100%" height="380px" alt=""  />
             </h3>
           </div>
         </Slider>

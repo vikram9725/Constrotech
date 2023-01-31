@@ -3,18 +3,13 @@ import "../Css/Project.css";
 import bdata from "../Building.json";
 import { Navbar1 } from "./Subcomponent/Navbar";
 import Footer from "./Subcomponent/Footer";
-// import { Search } from "@mui/icons-material";
 function Project() {
-  const [search, setsearch] = useState([]);
+document.title="Project"
+
   let data = bdata;
   return (
     <>
       <Navbar1 />
-      <input
-        type="text"
-        value={search}
-        onChange={(e) => setsearch(e.target.value)}
-      />
       <div>
         <div
           id="carouselExampleSlidesOnly"
@@ -29,6 +24,7 @@ function Project() {
             </div>
           </div>
         </div>
+        <div className="container">
         <div className="row">
           <div className="col-md-12 text center">
             <div className="section-title">
@@ -38,9 +34,7 @@ function Project() {
               </h5>
               <br></br>
               <div className="row ">
-                {data
-                  .filter((get) => get.city.includes(search))
-                  .map((data, i) => {
+                {data.map((data, i) => {
                     return (
                       <div key={i} className="col-md-4 col-lg-3  mb-3 bcard">
                         <div className="single-project">
@@ -57,6 +51,8 @@ function Project() {
               </div>
             </div>
           </div>
+        </div>
+
         </div>
       </div>
       <Footer />

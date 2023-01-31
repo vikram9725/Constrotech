@@ -9,6 +9,10 @@ import LoginForm from "./Component/Subcomponent/LoginForm";
 import Project from "./Component/Project";
 import Ourservices1 from "./Component/Ourservices";
 import Gallery from "./Component/Gallery"
+// import { Reviews } from "@mui/icons-material";
+import Top10 from "../src/Component/Subcomponent/ReviewT"
+import Review from "./Component/Subcomponent/Review";
+import GetCallGoBack from "./Component/Subcomponent/getCallGoBack";
 
 function App() {
   return (
@@ -23,7 +27,10 @@ function App() {
           <Route path="/Project" element={<Project/>}></Route>          
           <Route path="/LoginForm" element={<LoginForm/>}></Route>
           <Route path="/services" element={<Ourservices1/>}></Route> 
-          <Route path="/Gallery" element={<Gallery/>}></Route>  
+          <Route path="/Gallery" element={<Gallery/>}></Route> 
+          <Route path="/Top10" element={<Top10/>}></Route>  
+          <Route path="/Reviews" element={<Review/>}></Route>
+          <Route path="/GetCallBack" element={<GetCallGoBack/>}></Route>
 
 
 

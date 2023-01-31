@@ -1,0 +1,89 @@
+[
+    {
+        "id":"1",
+        "Image":"https://www.shutterstock.com/image-photo/top-view-photography-city-buildings-260nw-770705728.jpg",
+        "title":"kalpataru Vivant South Wing B",
+        "group":"kalpataru Group",
+        "locatin":"Andheri East, Mumbai",
+        "prize":" 1.99 Cr 5.60cr",
+        "description":"Pay Just ?22,222/- Pre EMI*. 2 &3 Bed with deck from ?2..."
+        
+    
+    },
+    {
+        "id":"2",
+       "Image":"https://bl-i.thgim.com/public/news/ov8l1d/article65862062.ece/alternates/FREE_1200/PALAISROYALE.jfif",
+        "title":"Vivant South Wing B",
+        "locatin":"Kandivali East, Mumbai",
+        "group":"Lodha Group",
+        "prize":" 2.02 Cr- ₹ 2.82 Cr",
+        "description":"0 GST & FIXED INTEREST RATE TILL 2024."
+        
+    
+    },
+    {
+        "id":"3",
+        "Image":"https://assets.gqindia.com/photos/63296b0207a46f1c62a816d6/master/w_1600%2Cc_limit/AB-new-apartment_02%2520(1).jpg",
+        "title":"Krish Crown City",
+        "locatin":"Avadi,Chaennai",
+        "group":"krish Housing...",
+        "prize":" 32.34 L-52.00L",
+        "description":"no brokerage"
+    
+    },
+    {
+        "id":"4",
+        "Image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSGuDiv9Dzu4r_UW6THd7ecCeiBTnUMgxp8og&usqp=CAU",
+        "title":"kalpataru Vivant South Wing B",
+        "locatin":"Avadi,Mumbai",
+        "group":"kalpataru Group",
+        "prize":" 1.99 Cr 5.60cr",
+        "description":"0 GST & FIXED INTEREST RATE TILL 2024."
+    
+    
+    },
+    {
+        "id":"5",
+       "Image":"https://is1-2.housingcdn.com/4f2250e8/474f5e97eb1aff1ed4d14aa2a7bcc690/v0/fs.png",
+        "title":"Vivant South Wing B",
+        "locatin":"Waghole,pune",
+        "group":"Manav Group",
+        "prize":" 2.02 Cr- ₹ 2.82 Cr",
+        "description":"No EMI Till Possession"
+        
+    
+    },
+    {
+        "id":"6",
+       "Image":"https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRM72mOUX1QW17cnw7uKgSEwwV0wkN_fN6LgQ&usqp=CAU",
+        "title":"Vivant South Wing B",
+        "locatin":"Kandivali East, Mumbai",
+        "group":"Lodha Group",
+        "prize":" 2.02 Cr- ₹ 2.82 Cr",
+        "description":"0 GST & FIXED INTEREST RATE TILL 2024."
+        
+    
+    },
+    {
+        "id":"7",
+       "Image":"https://s01.sgp1.digitaloceanspaces.com/large/667827-3b4830f1-d68a-47cd-9c4d-fa22e93bb612.jpg",
+        "title":"Bluemoon Tabas",
+        "locatin":"Velachery, Chennai",
+        "group":"Bloomoon Group",
+        "prize":" 3.02 Cr- ₹ 2.82 Cr",
+        "description":"Launch offer Rs.7699 / sq.ft, offer valid till 31st Jan 2023 o"
+        
+    
+    },
+    {
+        "id":"8",
+       "Image":"https://upload.wikimedia.org/wikipedia/commons/c/ca/BSE_Building_Side_View.jpg",
+        "title":"Krish Crown City",
+        "locatin":"Avadi, Chennai",
+        "group":"Avadi Group",
+        "prize":" 2.02 Cr- ₹ 2.82 Cr",
+        "description":"0 GST & FIXED INTEREST RATE TILL 2024."
+        
+    
+    }
+    ]

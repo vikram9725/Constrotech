@@ -11,7 +11,6 @@ const Material = () => {
 
   console.log(filterArray);
   // top category end
-
   return (
     <div className="container-fluid">
       <div className="row">
@@ -68,7 +67,7 @@ const Material = () => {
                     <h5>{data.title}</h5>
                     <p
                       className="card-text"
-                      style={{ color: "green", fontSize: "13.1px" }}
+                      style={{ fontSize: "14.1px" }}
                     >
                       {data.body}
                     </p>

@@ -1,8 +1,9 @@
 
-import jsondata from '../flat.json'
+import jsondata from '../../Flat.json'
 import React from 'react'
-import "../../Css/Review.css";
+import "../../Css/Top10.css";
 import { Badge } from 'react-bootstrap'
+import { NavLink } from 'react-router-dom';
 
 const Reviewdetail = () => {
   let a = jsondata
@@ -40,8 +41,10 @@ const Reviewdetail = () => {
                               <p style={{ color: "orange" }}>₹ {a.prize} </p>
                             </div>
                           </div>
-                          <div>
-                            <button type="button" class="btn btn-light mb-2">Reviews</button>
+                          <div >
+                          <NavLink  to={"/Reviews"}>
+                          <button type="button" class="btn btn-light mb-2">Reviews</button>
+                          </NavLink>
                           </div>
                           <div className=''>
                             <Badge className="badge bg-secondary"><span> Possession starts from: Jun'23</span></Badge>
@@ -92,11 +95,13 @@ const Reviewdetail = () => {
                           <p> <span className=' text-success me-2 '>Exciting Offers </span> {a.description}</p>
                         </div>
                         <div className='d-flex justify-content-end me-3' >
-                          <div className='me-3 mt-2'>
-                            <a style={{ color: "orange" }} href='/'><h6>View Details</h6></a>
+                          <div className='me-3 mt-2 pr-4'>
+                            <a style={{ color: "orange" }} href='/' ><h6>View Details</h6></a>
                           </div>
-                          <div>
-                            <button type="button" class="btn btn-danger">Get Callback</button>
+                          <div className="pr-3 mb-3">
+                          <NavLink to={"/GetCallBack"}>
+                            <button type="button" class="btn btn-danger ">Get Callback</button>
+                          </NavLink>
                           </div>
                         </div>
                       </div>

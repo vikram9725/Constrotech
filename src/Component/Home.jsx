@@ -4,6 +4,7 @@ import { Slider1 } from './Subcomponent/Navbar';
 import "./../Css/Home.css"
 import Footer from './Subcomponent/Footer';
 const Home = () => {
+document.title="Home"
   return (
     <>
         <Navbar1/>

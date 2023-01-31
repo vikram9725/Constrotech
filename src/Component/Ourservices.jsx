@@ -4,6 +4,8 @@ import "../Css/ourServices.css"
 import { Navbar1 } from './Subcomponent/Navbar';
 import Footer from './Subcomponent/Footer';
 const Ourservices1 = () => {
+document.title="OurServices"
+
     const ab = jsondata;
     const a = ab.filter(e => e.id <= 9)
     console.log(a);
