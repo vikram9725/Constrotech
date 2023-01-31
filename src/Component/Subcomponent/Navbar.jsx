@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import img4 from "../../images/Home/image4.jpg";
 import img2 from "../../images/Home/image2.jpg";
@@ -65,7 +65,7 @@ const Navbar1 = () => {
           <NavLink
             className="btn btn-outline-info my-2 my-sm-0  "
             to="/LoginForm"
-         >
+          >
             Login
           </NavLink>
           <NavLink
@@ -81,6 +81,10 @@ const Navbar1 = () => {
   );
 };
 const Slider1 = () => {
+  const [val, setVal] = useState('')
+  const [val1, setVal1] = useState('')
+  const b = ["You want to purchase a flat", "Construct a Bangalow"]
+  const a = ["All Cities", "Solapur", "Pune", "Mumbai", "Nashik", "Kolhapur"]
 
   return (
     <>
@@ -94,21 +98,17 @@ const Slider1 = () => {
           <div className="content-text">
             <div className="row bg-white crch ">
               <div className="col-sm-3 col-md-3 col-lg-3  ">
-                <select name="dropdown" id="" className="dropdown ">
-                  <option value="Select City">Select City</option>
-                  <option value="Select City">Solapur</option>
-                  <option value="Select City">Pune</option>
-                  <option value="Select City">Mumbai</option>
-                  <option value="Select City">Nashik</option>
-                  <option value="Select City">Kolhapur</option>
+                <select name="dropdown" id="" className="dropdown " value={val} onChange={e => setVal(e.target.value)}>
+                  {
+                    a.map(e => <option>{e}</option>)
+                  }
                 </select>
               </div>
               <div className="col-sm-3 col-md-3 col-lg-7 ms-2  ">
-                <select name="dropdown" id="" className="dropdown">
-                  <option value="Select City">
-                    You Want To A Purchase A Flat
-                  </option>
-                  <option value="Select City">Construct A Bangalow</option>
+                <select name="dropdown" id="" className="dropdown" value={val1} onChange={e => setVal1(e.target.value)}>
+                  {
+                    b.map(e => <option>{e}</option>)
+                  }
                 </select>
               </div>
               <div className="col-sm-2 col-md-1 col-lg-1 search  ml-1">
@@ -167,9 +167,9 @@ const Slider1 = () => {
         <div className="col-sm-12 col-md-12 col-lg-6"></div>
       </div>
       {/* slider end */}
-      <MainServices/>
-      <SliderG/>
-      <Material/>
+      <MainServices />
+      <SliderG />
+      <Material />
     </>
   );
 };
