@@ -31,6 +31,11 @@ const GetCallGoBack = () => {
         if (!name || name === '') newError.name = 'Please enter your name'
         if (!mo || mo === '') newError.mo = 'Enter your mobail number'
 
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 6339d022eadcd7b4fa553056f02dae87572b561e
         return newError
     }
 
