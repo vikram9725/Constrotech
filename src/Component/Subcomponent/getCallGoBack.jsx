@@ -14,7 +14,7 @@ const GetCallGoBack = () => {
     const [error, setError] = useState({})
     const setField = (field, value) => {
         setForm({
-            ...form        ,
+            ...form      ,
             [field]: value
         })
 
@@ -30,8 +30,6 @@ const GetCallGoBack = () => {
 
         if (!name || name === '') newError.name = 'Please enter your name'
         if (!mo || mo === '') newError.mo = 'Enter your mobail number'
-
-
 
         return newError
     }
