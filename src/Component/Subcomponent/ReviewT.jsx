@@ -4,10 +4,14 @@ import React from 'react'
 import "../../Css/Top10.css";
 import { Badge } from 'react-bootstrap'
 import { NavLink } from 'react-router-dom';
+import { Navbar1 } from './Navbar';
 
 const Reviewdetail = () => {
   let a = jsondata
   return (
+    <>
+    <Navbar1/>
+    <h1 className="text-danger font-weight-bolder mt-3 text-center">Selected city</h1>
     <div className='wallpaper'>
       <div className="container">
         <div className="row h-auto">
@@ -96,7 +100,9 @@ const Reviewdetail = () => {
                         </div>
                         <div className='d-flex justify-content-end me-3' >
                           <div className='me-3 mt-2 pr-4'>
-                            <a style={{ color: "orange" }} href='/' ><h6>View Details</h6></a>
+                            <NavLink to={"/Viewdetails"} >
+                              <button className='btn btn-outline-light'>View Details</button>
+                            </NavLink>
                           </div>
                           <div className="pr-3 mb-3">
                           <NavLink to={"/GetCallBack"}>
@@ -117,6 +123,7 @@ const Reviewdetail = () => {
         </div>
       </div>
     </div>
+    </>
 
 
   )
