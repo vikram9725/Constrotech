@@ -1,8 +1,4 @@
-<<<<<<< HEAD
-import React,{useState} from "react";
-=======
 import React, { useState } from "react";
->>>>>>> 0f7dc80454f9f2a2ef4f56db315a1febaa7ab960
 import { NavLink } from "react-router-dom";
 import img4 from "../../images/Home/image4.jpg";
 import img2 from "../../images/Home/image2.jpg";
@@ -103,20 +99,11 @@ const Slider1 = () => {
           <div className="content-text">
             <div className="row bg-white crch ">
               <div className="col-sm-3 col-md-3 col-lg-3  ">
-<<<<<<< HEAD
-                <select name="dropdown" id="" className="dropdown ">
-                  <option value="all data">Select City</option>
-                  <option value="Solapur">Solapur</option>
-                  <option value="Pune">Pune</option>
-                  <option value="Mumbai">Mumbai</option>
-                  <option value="Nashik">Nashik</option>
-                  <option value="Kolhapur">Kolhapur</option>
-=======
+
                 <select name="dropdown" id="" className="dropdown " value={val} onChange={e => setVal(e.target.value)}>
                   {
                     a.map(e => <option>{e}</option>)
                   }
->>>>>>> 0f7dc80454f9f2a2ef4f56db315a1febaa7ab960
                 </select>
               </div>
               <div className="col-sm-3 col-md-3 col-lg-7 ms-2  ">
@@ -129,7 +116,7 @@ const Slider1 = () => {
               <div className="col-sm-2 col-md-1 col-lg-1 search  ml-1">
 
                 <NavLink to={`/Top10`}>
-                <button className="btn btn-primary btnsrc">search</button>
+                  <button className="btn btn-primary btnsrc">search</button>
                 </NavLink>
               </div>
             </div>
