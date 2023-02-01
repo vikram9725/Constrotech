@@ -14,7 +14,7 @@ const GetCallGoBack = () => {
     const [error, setError] = useState({})
     const setField = (field, value) => {
         setForm({
-            ...form,
+            ...form        ,
             [field]: value
         })
 
