@@ -33,10 +33,6 @@ function App() {
           <Route path="/Reviews" element={<Review/>}></Route>
           <Route path="/GetCallBack" element={<GetCallGoBack/>}></Route>
           <Route path="/Viewdetails" element={<ViewDetails/>}></Route>
-
-
-
-
         </Routes>
       </Router>
     </div>

@@ -17,14 +17,16 @@
 
 
 .flats{
-    text-decoration: none;
+    /* text-decoration: none; */
     width:65%;
     padding-left: 12px;
     border-bottom: 1px solid rgb(234, 232, 232);
     font-size: 14px;
-   text-decoration: none;
-   
-    
+   /* text-decoration: none; */
+}
+.flats :hover{
+    text-decoration-line:underline;
+    cursor: pointer;
 }
 
 .custom-card{

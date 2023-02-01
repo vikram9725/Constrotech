@@ -29,7 +29,6 @@ const Reviewdetail = () => {
                         />
                         <span className='heart-icon'><i className="bi bi-heart"></i></span>
                       </div>
-
                       <div className="col-md-8  " >
                         <div className="card-body">
                           <div className='d-flex justify-content-between'>
@@ -46,16 +45,16 @@ const Reviewdetail = () => {
                             </div>
                           </div>
                           <div >
+
                           <NavLink  to={"/Reviews"}>
                           <button type="button" class="btn btn-light mb-2">Reviews</button>
                           </NavLink>
+
                           </div>
                           <div className=''>
                             <Badge className="badge bg-secondary"><span> Possession starts from: Jun'23</span></Badge>
                           </div>
                         </div>
-
-
                         <div className='d-flex flats justify-content-between w-30 fs-10'>
                           <div>
                             <a href='/'><p>2BHK+2T</p></a>
@@ -67,21 +66,17 @@ const Reviewdetail = () => {
                             <p>1.9 Cr</p>
                           </div>
                         </div>
-
                         <div className='d-flex flats  justify-content-between w-30'>
                           <div>
-                            <a href='/'><p>2BHK+2T</p></a>
+                            <p>2BHK+2T</p>
                           </div>
                           <div>
                             <p>On Request</p>
-
                           </div>
                           <div>
                             <p>1.9 Cr</p>
                           </div>
-
                         </div>
-
                         <div className='d-flex flats justify-content-between w-30'>
                           <div>
                             <a href='/'><p>2BHK+2T</p></a>

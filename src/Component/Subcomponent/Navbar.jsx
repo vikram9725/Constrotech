@@ -38,6 +38,7 @@ const Navbar1 = () => {
               </NavLink>
             </li>
             <li className="nav-item ms-5">
+
               <NavLink className="nav-link " to="/About">
                 ABOUT
               </NavLink>
@@ -99,23 +100,23 @@ const Slider1 = () => {
           <div className="content-text">
             <div className="row bg-white crch ">
               <div className="col-sm-3 col-md-3 col-lg-3  ">
-                <select name="dropdown" id="" className="dropdown " value={val} onChange={e => setVal(e.target.value)}>
+
+                <select name="dropdown" id="" className="dropdown " value={val} onSelect={e => setVal(e.target.value)}>
                   {
                     a.map(e => <option>{e}</option>)
                   }
                 </select>
               </div>
               <div className="col-sm-3 col-md-3 col-lg-7 ms-2  ">
-                <select name="dropdown" id="" className="dropdown" value={val1} onChange={e => setVal1(e.target.value)}>
+                <select name="dropdown" id="" className="dropdown" value={val1} onSelect={e => setVal1(e.target.value)}>
                   {
                     b.map(e => <option>{e}</option>)
                   }
                 </select>
               </div>
               <div className="col-sm-2 col-md-1 col-lg-1 search  ml-1">
-
                 <NavLink to={`/Top10`}>
-                <button className="btn btn-primary btnsrc">search</button>
+                  <button className="btn btn-primary btnsrc">search{val}</button>
                 </NavLink>
               </div>
             </div>
@@ -152,7 +153,6 @@ const Slider1 = () => {
           data-slide="prev"
         >
           <span className="carousel-control-prev-icon" aria-hidden="true" />
-          <span className="sr-only">Previous</span>
         </button>
         <button
           className="carousel-control-next"
@@ -161,14 +161,7 @@ const Slider1 = () => {
           data-slide="next"
         >
           <span className="carousel-control-next-icon" aria-hidden="true" />
-          <span className="sr-only">Next</span>
         </button>
-      </div>
-
-      <div className="row">
-        <div className="col-sm-12 col-md-12 col-lg-6"></div>
-
-        <div className="col-sm-12 col-md-12 col-lg-6"></div>
       </div>
       {/* slider end */}
       <MainServices />
