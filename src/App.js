@@ -13,6 +13,7 @@ import Gallery from "./Component/Gallery"
 import Top10 from "../src/Component/Subcomponent/ReviewT"
 import Review from "./Component/Subcomponent/Review";
 import GetCallGoBack from "./Component/Subcomponent/getCallGoBack";
+import ViewDetails from "./Component/Subcomponent/ViewDetails";
 
 function App() {
   return (
@@ -31,9 +32,7 @@ function App() {
           <Route path="/Top10" element={<Top10/>}></Route>  
           <Route path="/Reviews" element={<Review/>}></Route>
           <Route path="/GetCallBack" element={<GetCallGoBack/>}></Route>
-
-
-
+          <Route path="/Viewdetails" element={<ViewDetails/>}></Route>
         </Routes>
       </Router>
     </div>
