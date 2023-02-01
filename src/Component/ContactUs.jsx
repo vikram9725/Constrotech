@@ -4,6 +4,8 @@ import { Navbar1 } from "./Subcomponent/Navbar";
 import "../Css/ContactUs.css";
 
 const ContactUs = () => {
+document.title="Contact Us"
+
   const [comment, setcomment] = useState("");
   const [email, setemail] = useState("");
   const [mobile, setmobile] = useState("");

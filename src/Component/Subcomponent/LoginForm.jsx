@@ -3,6 +3,7 @@ import { NavLink } from "react-router-dom";
 // import "../../Css/LoginForm.css"
 // import img1 from "..";
 function LoginForm() {
+  document.title="Login"
   return (
     <>
       <section className="vh-100 mt-5">

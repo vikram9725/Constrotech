@@ -6,6 +6,8 @@ import { Navbar1 } from './Subcomponent/Navbar'
 import Footer from './Subcomponent/Footer'
 
 const About = () => {
+document.title="About"
+
   return (
     <>
       {/* navbar start */}

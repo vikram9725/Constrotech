@@ -2,6 +2,8 @@ import React from "react";
 import { NavLink } from "react-router-dom";
 
 function Registerform() {
+  document.title="Register"
+
   return (
     <div>
       <section>
