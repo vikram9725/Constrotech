@@ -5,7 +5,7 @@ import '../../Css/getCallGoBack.css'
 // import jsonData from "../db.json"
 
 const GetCallGoBack = () => {
-   
+
     // const a = jsonData;
     // console.log(a);
     const [val, setVal] = useState('')
@@ -30,6 +30,9 @@ const GetCallGoBack = () => {
 
         if (!name || name === '') newError.name = 'Please enter your name'
         if (!mo || mo === '') newError.mo = 'Enter your mobail number'
+
+
+
         return newError
     }
 
