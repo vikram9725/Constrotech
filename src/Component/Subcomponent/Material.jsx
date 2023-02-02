@@ -85,12 +85,16 @@ const Material = () => {
                     >
                       {data.body}
                     </p>
-                    <a
+                    {/* <a
                       href="/"
                       className="btn btn-primary d-flex justify-content-center"
                     >
                       <span>SEND INQUIRY</span>
-                    </a>
+                    </a> */}
+                    <NavLink className="btn btn-primary d-flex justify-content-center font-weight-bold" to="/SendInquriryForm">
+               
+                  SEND INQUIRY
+                  </NavLink>
                   </div>
                 </div>
               );
