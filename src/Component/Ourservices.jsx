@@ -1,18 +1,30 @@
 import React from 'react'
-import jsondata from '../dbG.json'
+// import jsondata from '../dbG.json'
 import "../Css/ourServices.css"
 import { Navbar1 } from './Subcomponent/Navbar';
 import Footer from './Subcomponent/Footer';
+import { useState } from 'react';
+import { useEffect } from 'react';
+import axios from 'axios';
 const Ourservices1 = () => {
-document.title="OurServices"
+    document.title = "OurServices"
 
-    const ab = jsondata;
-    const a = ab.filter(e => e.id <= 9)
-    console.log(a);
-    return ( 
-           <>
-           <Navbar1/>
-             <div className='container mt-5'>
+    //  Access Json data
+    const [user, setUser] = useState([])
+    async function userdata() {
+        const a = await axios.get(`./JsonData/dbG.json`)
+        if (a.data.length > 0)
+            setUser(a.data)
+    }
+    useEffect(() => {
+        userdata();
+    }, [])
+    // Filter  Json data
+    const a = user.filter(e => e.id <= 9)
+    return (
+        <>
+            <Navbar1 />
+            <div className='container mt-5'>
                 <div className='col-12 bagImg d-flex align-items-center justify-content-center'>
                     <h1>Our Services</h1>
                 </div>
@@ -32,9 +44,9 @@ document.title="OurServices"
 
                 </div>
             </div>
-            <Footer/>
-           </>
-    
+            <Footer />
+        </>
+
     )
 }
 

@@ -1,19 +1,34 @@
+import axios from "axios";
 import React from "react";
+import { useEffect } from "react";
+import { useState } from "react";
 import "../Css/Gallery.css";
-import jsondata from "../Gallery.json";
+// import jsondata from "../Gallery.json";
 import jsongallery1 from "../Gallery1.json";
 import jsongallery2 from '../Gallery2.json'
 import Footer from "./Subcomponent/Footer";
 import { Navbar1 } from "./Subcomponent/Navbar";
 function Gallery() {
-document.title="Gallery"
+  document.title = "Gallery"
+  // Access json data 
+  const [user, setUser] = useState([])
+  async function userdata() {
+    const a = await axios.get(`./JsonData/Gallery.json`)
+    if (a.data.length > 0)
+      setUser(a.data)
+  }
+  useEffect(() => {
+    userdata();
+  }, [])
 
-  let data = jsondata;
+  // Filter Json data
+  let data = user;
+
   let data1 = jsongallery1;
-  let data2=jsongallery2;
+  let data2 = jsongallery2;
   return (
     <div>
-    <Navbar1/>
+      <Navbar1 />
       <div
         id="carouselExampleSlidesOnly"
         class="carousel slide"
@@ -77,7 +92,7 @@ document.title="Gallery"
                       <div className="single-project ">
                         <img
                           src={i.image1} height="320px" width="300px" alt=""
-                          
+
                         ></img>
 
                         <div>
@@ -90,17 +105,17 @@ document.title="Gallery"
               </div>
 
 
-             <br></br>
+              <br></br>
               <hr />
               <div>
                 <h4 className="text-center text-decoration-none"
-                 >
+                >
                   Available Bungalow
                 </h4>
               </div>
               <br></br>
               <hr />
- 
+
               <div className="row d-flex mt-5">
                 {data2.map((i) => {
                   return (
@@ -108,7 +123,7 @@ document.title="Gallery"
                       <div className="single-project ">
                         <img
                           src={i.image2} height="320px" width="300px" alt=""
-                         
+
                         ></img>
 
                         <div>
@@ -123,9 +138,9 @@ document.title="Gallery"
           </div>
         </div>
       </div>
-      <Footer/>
+      <Footer />
     </div>
-    
+
   );
 }
 

@@ -1,11 +1,13 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Slider from "react-slick";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import { GrFormPrevious } from "react-icons/gr";
 import { MdNavigateNext } from "react-icons/md";
 import '../../Css/sliderG.css'
-import jd from '../../dbG.json'
+import axios from 'axios';
+import { useEffect } from 'react';
+// import jd from '../../dbG.json'
 
 function SampleNextArrow(props) {
     const { onClick } = props;
@@ -27,6 +29,7 @@ function SamplePrevArrow(props) {
         </div>
     );
 }
+
 const SliderG = () => {
 
     var settings = {
@@ -48,17 +51,29 @@ const SliderG = () => {
         ],
     };
 
-    const dj = jd;
-    const newdj = dj.filter(e => e.id >= 9)
+    // const dj = jd;
+    // const newdj = dj.filter(e => e.id >= 9)
 
+    //  Access Json data
+    const [user, setUser] = useState([])
+    async function userdata() {
+        const a = await axios.get(`./JsonData/dbG.json`)
+        if (a.data.length > 0)
+            setUser(a.data)
+    }
+    useEffect(() => {
+        userdata();
+    }, [])
+    // Filter  Json data
+    const a = user.filter(e => e.id >= 9)
     return (
         <div className='container mt-5 mb-4'>
             <Slider {...settings} >
-                {newdj && newdj.map((e, i) => {
+                {a && a.map((e, i) => {
                     return (
                         <div className=''>
                             <div key={i} className="card grow ch ">
-                                <img src={e.image} className="card-img-top"  height='350px' alt="..." />
+                                <img src={e.image} className="card-img-top" height='350px' alt="..." />
                                 <div className="card-body">
                                     <h5 className="card-title">{e.title}</h5>
                                     <p className="card-text">{e.body}</p>

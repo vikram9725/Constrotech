@@ -1,12 +1,28 @@
 
-import jsondata from '../../Flat.json'
+// import jsondata from '../../Flat.json'
 import React from 'react'
 import "../../Css/Top10.css";
 import { Badge } from 'react-bootstrap'
-import { NavLink } from 'react-router-dom';
+import { NavLink, Link } from 'react-router-dom';
+import { useState } from 'react';
+import axios from 'axios';
+import { useEffect } from 'react';
 
 const Reviewdetail = () => {
-  let a = jsondata
+  // Access json data 
+  const [user, setUser] = useState([])
+  async function userdata() {
+    const a = await axios.get(`./JsonData/Flat.json`)
+    if (a.data.length > 0)
+      setUser(a.data)
+  }
+  useEffect(() => {
+    userdata();
+  }, [])
+
+  // Filter Json data
+  let a = user;
+
   return (
     <div className='wallpaper'>
       <div className="container">
@@ -42,9 +58,9 @@ const Reviewdetail = () => {
                             </div>
                           </div>
                           <div >
-                          <NavLink  to={"/Reviews"}>
-                          <button type="button" class="btn btn-light mb-2">Reviews</button>
-                          </NavLink>
+                            <NavLink to={"/Reviews"}>
+                              <button type="button" class="btn btn-light mb-2">Reviews</button>
+                            </NavLink>
                           </div>
                           <div className=''>
                             <Badge className="badge bg-secondary"><span> Possession starts from: Jun'23</span></Badge>
@@ -96,12 +112,14 @@ const Reviewdetail = () => {
                         </div>
                         <div className='d-flex justify-content-end me-3' >
                           <div className='me-3 mt-2 pr-4'>
-                            <a style={{ color: "orange" }} href='/' ><h6>View Details</h6></a>
+                            <NavLink to={'/ViewDetails'}>
+                              <Link style={{ color: "orange" }} ><h6>View Details</h6></Link>
+                            </NavLink>
                           </div>
                           <div className="pr-3 mb-3">
-                          <NavLink to={"/GetCallBack"}>
-                            <button type="button" class="btn btn-danger ">Get Callback</button>
-                          </NavLink>
+                            <NavLink to={"/GetCallBack"}>
+                              <button type="button" class="btn btn-danger ">Get Callback</button>
+                            </NavLink>
                           </div>
                         </div>
                       </div>

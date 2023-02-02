@@ -1,12 +1,25 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "../Css/Project.css";
-import bdata from "../Building.json";
+// import bdata from "../Building.json";
 import { Navbar1 } from "./Subcomponent/Navbar";
 import Footer from "./Subcomponent/Footer";
+import axios from "axios";
 function Project() {
-document.title="Project"
+  document.title = "Project"
 
-  let data = bdata;
+  // Access json data 
+  const [user, setUser] = useState([])
+  async function userdata() {
+    const a = await axios.get(`./JsonData/Building.json`)
+    if (a.data.length > 0)
+      setUser(a.data)
+  }
+  useEffect(() => {
+    userdata();
+  }, [])
+
+  // Filter Json data
+  let data = user;
   return (
     <>
       <Navbar1 />
@@ -25,16 +38,16 @@ document.title="Project"
           </div>
         </div>
         <div className="container">
-        <div className="row">
-          <div className="col-md-12 text center">
-            <div className="section-title">
-              <h3 style={{ textAlign: "center" }}>Our Recent Work</h3>
-              <h5 style={{ textAlign: "center" }}>
-                We Completed it with quality and passion
-              </h5>
-              <br></br>
-              <div className="row ">
-                {data.map((data, i) => {
+          <div className="row">
+            <div className="col-md-12 text center">
+              <div className="section-title">
+                <h3 style={{ textAlign: "center" }}>Our Recent Work</h3>
+                <h5 style={{ textAlign: "center" }}>
+                  We Completed it with quality and passion
+                </h5>
+                <br></br>
+                <div className="row ">
+                  {data.map((data, i) => {
                     return (
                       <div key={i} className="col-md-4 col-lg-3  mb-3 bcard">
                         <div className="single-project">
@@ -48,10 +61,10 @@ document.title="Project"
                       </div>
                     );
                   })}
+                </div>
               </div>
             </div>
           </div>
-        </div>
 
         </div>
       </div>

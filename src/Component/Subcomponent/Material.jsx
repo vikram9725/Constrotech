@@ -1,15 +1,30 @@
+import axios from "axios";
 import React from "react";
-import topjsonData from "../../dbs.json";
+import { useEffect } from "react";
+import { useState } from "react";
 import "../../Css/Material.css";
 import ReactSilcSlider from "./ReactSilkSlider";
 const Material = () => {
-  // top category start
-  const jsonData = topjsonData;
-  console.log(jsonData);
-  var filterArray = jsonData.filter((element) => element.id >= 13);
-  var Allproduct = topjsonData.filter((element) => element.id <= 12);
 
-  console.log(filterArray);
+  // import json data
+
+  const [user, setUser] = useState([])
+  async function userdata() {
+    const a = await axios.get(`./JsonData/dbs.json`)
+    if (a.data.length > 0)
+      setUser(a.data)
+  }
+  useEffect(() => {
+    userdata();
+  }, [])
+
+  // top category start
+
+
+  // filter Method
+  var filterArray = user.filter((element) => element.id >= 13);
+  var Allproduct = user.filter((element) => element.id <= 12);
+
   // top category end
   return (
     <div className="container-fluid">
@@ -73,7 +88,7 @@ const Material = () => {
                     </p>
                     <a
                       href="/"
-                      className="btn btn-primary d-flex justify-content-center" 
+                      className="btn btn-primary d-flex justify-content-center"
                     >
                       <span>SEND INQUIRY</span>
                     </a>
