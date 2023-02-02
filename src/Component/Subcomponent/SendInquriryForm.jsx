@@ -1,10 +1,14 @@
 import React, { useState } from 'react'
+import { NavLink } from "react-router-dom";
 
 import '../../Css/sendinquriry.css'
 
 
 
 const SendInquriryForm = () => {
+
+  document.title = "SendInquriryForm"
+
   const [ProductOrService, setProductOrService]=useState('')
   const [FullName, setFullName] = useState('')
   const [MobileNumber, setMobileNumber] = useState('')
@@ -112,11 +116,11 @@ const SendInquriryForm = () => {
 
                 </div>
 
-
+                <NavLink to={"/"}>
                 <button type="submit-sendinq" className="btn btn-danger float-right " >
                   Submit <i className="bi bi-chevron-compact-right "></i>
                 </button>
-
+                </NavLink>
               </div>
 
 
