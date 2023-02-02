@@ -14,6 +14,7 @@ import Top10 from "../src/Component/Subcomponent/ReviewT"
 import Review from "./Component/Subcomponent/Review";
 import GetCallGoBack from "./Component/Subcomponent/getCallGoBack";
 import ViewDetails from "./Component/Subcomponent/ViewDetails";
+import SendInquriryForm  from './Component/Subcomponent/SendInquriryForm'
 
 function App() {
   return (
@@ -33,6 +34,7 @@ function App() {
           <Route path="/Reviews" element={<Review/>}></Route>
           <Route path="/GetCallBack" element={<GetCallGoBack/>}></Route>
           <Route path="/Viewdetails" element={<ViewDetails/>}></Route>
+          <Route path="/SendInquriryForm" element={<SendInquriryForm/>}></Route>
         </Routes>
       </Router>
     </div>

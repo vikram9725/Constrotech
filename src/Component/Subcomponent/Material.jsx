@@ -2,6 +2,7 @@ import axios from "axios";
 import React from "react";
 import { useEffect } from "react";
 import { useState } from "react";
+import { NavLink } from "react-router-dom";
 import "../../Css/Material.css";
 import ReactSilcSlider from "./ReactSilkSlider";
 const Material = () => {
@@ -50,12 +51,10 @@ const Material = () => {
                 <h6 className="card-title d-flex justify-content-center font-weight-bold">
                   {e.title}
                 </h6>
-                <a
-                  href="/"
-                  className="btn btn-primary d-flex justify-content-center font-weight-bold"
-                >
+                <NavLink className="btn btn-primary d-flex justify-content-center font-weight-bold" to="/SendInquriryForm">
+               
                   SEND INQUIRY
-                </a>
+                  </NavLink>
               </div>
             </div>
           );

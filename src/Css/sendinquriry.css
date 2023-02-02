@@ -1,0 +1,39 @@
+.bgINQUIRY {
+
+    width: 100%;
+    height: 400px;
+    background-image: url('../images/bginqimg//bgINQUIRY.png')
+        /* border: 1px solid;
+   box-sizing: border-box; */
+
+}
+
+.bgINQUIRY:hover {
+    transform: scale(1.1);
+    /* translate: 3d(0,0,0); */
+    transition: (0.5s);
+
+
+}
+
+
+
+.condition {
+
+    color: rgb(5, 146, 189);
+    font-size: 10px;
+
+}
+
+.submitsendinq {
+
+    padding-bottom: 10px;
+}
+
+.form-control {
+
+    font-size: 10px;
+}
+/* .label{
+    color: red;
+} */
