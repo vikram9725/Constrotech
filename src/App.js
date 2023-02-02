@@ -13,6 +13,7 @@ import Gallery from "./Component/Gallery"
 import Top10 from "../src/Component/Subcomponent/ReviewT"
 import Review from "./Component/Subcomponent/Review";
 import GetCallGoBack from "./Component/Subcomponent/getCallGoBack";
+import ViewDetails from "./Component/Subcomponent/ViewDetails";
 
 function App() {
   return (
@@ -20,20 +21,18 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home />}></Route>
-          <Route path="/loginHome" element={<LoginHome />}></Route>
-          <Route path="/contactus" element={<ContactUs />}></Route>
-          <Route path="/About" element={<About />}></Route>
-          <Route path="/register" element={<Registerform />}></Route>
-          <Route path="/Project" element={<Project />}></Route>
-          <Route path="/LoginForm" element={<LoginForm />}></Route>
-          <Route path="/services" element={<Ourservices1 />}></Route>
-          <Route path="/Gallery" element={<Gallery />}></Route>
-          <Route path="/Top10" element={<Top10 />}></Route>
-          <Route path="/Reviews" element={<Review />}></Route>
-          <Route path="/GetCallBack" element={<GetCallGoBack />}></Route>
-
-
-
+          <Route path="/loginHome" element={<LoginHome/>}></Route>
+          <Route path="/contactus" element={<ContactUs/>}></Route>
+          <Route path="/About" element={<About/>}></Route>
+          <Route path="/register" element={<Registerform/>}></Route>
+          <Route path="/Project" element={<Project/>}></Route>          
+          <Route path="/LoginForm" element={<LoginForm/>}></Route>
+          <Route path="/services" element={<Ourservices1/>}></Route> 
+          <Route path="/Gallery" element={<Gallery/>}></Route> 
+          <Route path="/Top10" element={<Top10/>}></Route>  
+          <Route path="/Reviews" element={<Review/>}></Route>
+          <Route path="/GetCallBack" element={<GetCallGoBack/>}></Route>
+          <Route path="/Viewdetails" element={<ViewDetails/>}></Route>
         </Routes>
       </Router>
     </div>

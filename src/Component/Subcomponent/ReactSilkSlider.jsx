@@ -31,7 +31,7 @@ export default class ReactSilcSlider extends Component {
       autoplaySpeed: 2000,
     };
     return (
-      <div>
+      <div className="container">
         <h2 className=" text-success d-flex justify-content-center">
           Our Top Material Brands Like This
         </h2>

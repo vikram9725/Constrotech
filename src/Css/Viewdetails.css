@@ -1,0 +1,28 @@
+.form-name{
+    position: relative;
+    padding: 6px 8px;
+    margin-bottom: 20px;
+}
+.form-Control{
+    padding-left: 5px;
+    border: 0;
+    box-shadow: none;
+    border-radius: 0;
+    border-bottom: 2px solid #e0e0e0;
+    background-color: transparent;
+    font-size: 16px;
+}
+.error-info{
+    display: none;
+}
+/* .checkbox11{
+    display: inline-flex;
+    border-radius: 5px;
+    border: solid 1px #ccc;
+    height: 20px;
+    width: 20px;
+    vertical-align: middle;
+} */
+b{
+    float: left;
+}
