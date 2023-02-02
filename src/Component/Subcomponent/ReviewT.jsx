@@ -112,7 +112,7 @@ const Reviewdetail = () => {
                           <div className='d-flex justify-content-end me-3' >
                             <div className='me-3 mt-2 pr-4'>
                               <NavLink to={"/Viewdetails"} >
-                                <Link className='btn btn-outline-light'>View Details</Link>
+                                <button className='btn btn-outline-light'>View Details</button>
                               </NavLink>
                             </div>
                             <div className="pr-3 mb-3">
