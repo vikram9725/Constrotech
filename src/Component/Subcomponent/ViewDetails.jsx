@@ -144,7 +144,7 @@ function ViewDetails() {
 
                             <div class="input-group mb-2">
                               <div class="input-group-prepend">
-                                <div
+                                <div 
                                   class="input-group-text"
                                   style={{ width: "30px", height: "20px" }}
                                 >
